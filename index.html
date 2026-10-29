@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday! 🎂✨</title>
+    <title>Happy Birthday Nosi! 🎂✨</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome Icons -->
@@ -116,7 +116,7 @@
 
         /* Glassmorphism card */
         .glass-card {
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.85);
             backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.7);
         }
@@ -145,10 +145,10 @@
         <!-- HEADER TITLE -->
         <header class="text-center my-6 animate-float">
             <span class="px-4 py-1.5 rounded-full bg-purple-100 text-deepViolet text-sm font-semibold tracking-wide uppercase shadow-sm">
-                ✨ Special Celebration ✨
+                ✨ Special Birthday Celebration ✨
             </span>
             <h1 class="font-handwriting text-5xl md:text-7xl text-deepViolet font-bold mt-4 tracking-wide drop-shadow-sm">
-                Happy Birthday!
+                Happy Birthday, Nosi!
             </h1>
             <p id="recipient-subtitle" class="font-cute text-xl md:text-2xl text-purple-900 mt-2">
                 To the most incredible person 💜
@@ -157,7 +157,7 @@
 
         <!-- SECTION 1: ENVELOPE OPENING CARD -->
         <section id="envelope-section" class="w-full flex flex-col items-center my-8 transition-all duration-700">
-            <p class="text-purple-600 font-cute mb-4 animate-bounce">Tap the envelope to open your message! 💌</p>
+            <p class="text-purple-600 font-cute mb-4 animate-bounce">Tap the envelope to unseal your surprise! 💌</p>
             <div class="envelope-wrapper">
                 <div id="birthday-envelope" class="envelope flex items-center justify-center">
                     <div class="envelope-lid"></div>
@@ -173,10 +173,31 @@
         <!-- SECTION 2: INTERACTIVE CONTENT (Revealed after envelope click) -->
         <div id="revealed-content" class="hidden w-full flex-col items-center space-y-12 transition-opacity duration-1000 opacity-0">
 
+            <!-- EMBEDDED SPOTIFY PLAYER -->
+            <section class="w-full max-w-md glass-card rounded-3xl p-4 md:p-6 shadow-xl text-center flex flex-col items-center">
+                <div class="flex items-center space-x-2 mb-3">
+                    <i class="fab fa-spotify text-green-500 text-2xl"></i>
+                    <h3 class="font-cute text-lg text-deepViolet">Now Playing: DtMF by Bad Bunny</h3>
+                </div>
+                <!-- Spotify Embedded Player for "DtMF" by Bad Bunny -->
+                <div class="w-full rounded-2xl overflow-hidden shadow-sm">
+                    <iframe 
+                        style="border-radius:12px" 
+                        src="https://open.spotify.com/embed/track/1a2R0BSo3fS6C1QbeR013q?utm_source=generator&theme=0" 
+                        width="100%" 
+                        height="152" 
+                        frameBorder="0" 
+                        allowfullscreen="" 
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </section>
+
             <!-- VIRTUAL BIRTHDAY CAKE & CANDLE SECTION -->
             <section class="w-full max-w-md glass-card rounded-3xl p-8 shadow-xl text-center flex flex-col items-center relative overflow-hidden">
                 <h2 class="font-cute text-2xl text-deepViolet mb-2">Make a Wish! 🎂</h2>
-                <p class="text-sm text-purple-700 mb-6">Click the candle flames or the button below to blow out the candles!</p>
+                <p class="text-sm text-purple-700 mb-6">Tap the candle flames or the button below to blow them out!</p>
                 
                 <!-- SVG Cake Graphic -->
                 <div class="relative my-4 flex flex-col items-center justify-end h-48 w-48">
@@ -225,17 +246,17 @@
             <section class="w-full glass-card rounded-3xl p-6 md:p-8 shadow-xl">
                 <div class="text-center mb-6">
                     <h2 class="font-handwriting text-4xl text-deepViolet font-bold">Our Favorite Memories 📸</h2>
-                    <p class="text-xs text-purple-700 font-cute">Swipe or use arrows to flip through photos</p>
+                    <p class="text-xs text-purple-700 font-cute">Use the arrows to flip through photos</p>
                 </div>
 
                 <!-- Slide Frame -->
                 <div class="relative flex flex-col items-center">
                     <div class="w-full max-w-sm bg-white p-4 pb-8 rounded-xl shadow-md transform rotate-1 hover:rotate-0 transition-transform duration-300 border border-purple-100">
-                        <div class="h-64 md:h-72 w-full bg-purple-50 rounded-lg overflow-hidden relative">
-                            <img id="slide-img" src="https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=800&auto=format&fit=crop" alt="Memory Photo" class="w-full h-full object-cover transition-all duration-500">
+                        <div class="h-80 w-full bg-purple-50 rounded-lg overflow-hidden relative flex items-center justify-center">
+                            <img id="slide-img" src="WhatsApp Image 2026-10-29 at 19.18.31.jpeg" alt="Memory Photo" class="w-full h-full object-cover transition-all duration-500">
                         </div>
                         <p id="slide-caption" class="font-handwriting text-2xl text-gray-700 text-center mt-4">
-                            Remembering this amazing day! ✨
+                            That gorgeous smile! ✨
                         </p>
                     </div>
 
@@ -261,10 +282,10 @@
                 <div class="prose max-w-none text-gray-700 font-body leading-relaxed space-y-4 text-base md:text-lg">
                     <p>Nosi baby,</p>
                     <p>
-                        if nothing else I how you know with every ounce of my being I love you. You are so loved and truly worthy of love. Your importance not only to me but to everyone who has gotten to bath in your light. 
+                        if nothing else I hope you know with every ounce of my being I love you. You are so loved and truly worthy of love. Your importance not only to me but to everyone who has gotten to bathe in your light. 
                     </p>
                     <p>
-                        When you’re down I hope you remember that no matter what. I'm here for you and I fully intend on staying In your life for quite some time(FOREVER AGAINST YOUR WILL). I hope you always feel I appreciate and adore you witnout restraints, and that this will never change.
+                        When you’re down I hope you remember that no matter what. I'm here for you and I fully intend on staying in your life for quite some time (FOREVER AGAINST YOUR WILL). I hope you always feel I appreciate and adore you without restraints, and that this will never change.
                     </p>
                     <p class="font-handwriting text-3xl text-deepViolet pt-4 text-right">
                         With lots of love 💜,<br>
@@ -278,24 +299,24 @@
 
     <!-- FOOTER -->
     <footer class="w-full text-center py-6 text-purple-400 font-cute text-xs z-10">
-        Made with 💜 for a wonderful Birthday | Host on GitHub Pages
+        Made with 💜 for Nosi | Hosted on GitHub Pages
     </footer>
 
     <!-- JAVASCRIPT LOGIC -->
     <script>
-        /* --- 1. SLIDESHOW DATA (Customize photos and captions here!) --- */
+        /* --- 1. SLIDESHOW DATA WITH ATTACHED PHOTOS --- */
         const slides = [
             {
-                img: "https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=800&auto=format&fit=crop",
-                caption: "Wishing you a bright year ahead! 🌟"
+                img: "WhatsApp Image 2026-10-29 at 19.18.31.jpeg",
+                caption: "That gorgeous smile! ✨"
             },
             {
-                img: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=800&auto=format&fit=crop",
-                caption: "To many more unforgettable moments together! 🎉"
+                img: "WhatsApp Image 2026-10-29 at 19.18.32 (1).jpeg",
+                caption: "Radiant & glowing! 💖"
             },
             {
-                img: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?q=80&w=800&auto=format&fit=crop",
-                caption: "Sweet memories and even sweeter celebrations! 🍰"
+                img: "WhatsApp Image 2026-10-29 at 19.18.32.jpeg",
+                caption: "Beach days & sunshine vibes 🌊☀️"
             }
         ];
         let currentSlide = 0;
@@ -331,7 +352,7 @@
 
         envelope.addEventListener('click', () => {
             envelope.classList.add('open');
-            // Play confetti with purple/gold palette
+            // Play initial celebratory confetti burst
             confetti({
                 particleCount: 80,
                 spread: 70,
@@ -372,7 +393,7 @@
             document.getElementById('blow-btn').innerHTML = '<i class="fas fa-check mr-2"></i>Wish Made!';
             document.getElementById('blow-btn').classList.replace('bg-deepViolet', 'bg-emerald-600');
 
-            // Trigger grand celebratory confetti burst
+            // Trigger grand celebratory confetti stream
             const duration = 3 * 1000;
             const end = Date.now() + duration;
 
